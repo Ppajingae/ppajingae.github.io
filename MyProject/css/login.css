@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+p{
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+}
+.float-left{
+    float: left;
+}
+
+.input-width{
+    width: 70%;
+}
+
+input{
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 300px;
+    height: 20px;
+}
+
+
+
+.login-name{
+
+}
+
+.logInBox{
+    background-color: darkgrey;
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    float: right;
+    position: relative;
+    opacity: 50%;
+    padding: 30px;
+}
+
+
+.theme{
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+    min-height: 800px;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0px;
+    position: relative;
+
+}
+
+.theme::before{
+    content: "";
+    background-image: url(/item/img/유정190.jpg);
+    opacity: 70%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.bottom-text{
+    margin: 5px 10px auto auto;
+    text-align: right;
+}
+
+.btn-tag{
+    clear: both;
+    padding: 20px;
+}
+
+.btn-style{
+    margin: -30px 20px auto auto;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: black 3px 3px;
+}
+
+.btn-style:hover{
+    background-color: skyblue;
+}
+
+.btn-style:active{
+    background-color: violet;
+}
+
+

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: hansan;
+    src: url(../font/BlackHanSans-Regular.ttf);
+}
+
+i,p{
+    font-family: hansan;
+    font-size: 36px;
+}
+
+.MainLogo i{
+    background-color: #4c7eff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+
+
+span{
+    font-family: hansan;
+    font-size: 12px;
+    color: black;
+}
+
+.MainLogo{
+    background-color: skyblue;
+    height: 100px;
+    align-items: center;
+    margin: -10px;
+}
+
+.Main-Logo-Text{
+    text-align: center;
+    font-weight: 300;
+    width: 100px;
+    color: white;
+}
+
+
+.shadow-square{
+    position: absolute;
+    width: 85%;
+    height: 50%;
+    background-color: black;
+    background: rgba(0,0,0,0.1);
+    padding-left: 20%;
+    padding-right: 20%;
+    opacity: 1;
+    bottom: -40px;
+    transition: all 1s;
+    box-sizing: border-box;
+}
+
+.shadow-square span{
+    text-align: center;
+}
+
+.detail:hover{
+    .shadow-square{
+        bottom: 0px;
+    }
+}
+
+.detail{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.util-menu{
+    position: relative;
+    overflow: hidden;
+    padding: 0!important;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+    p{
+        font-size: 24px;
+    }
+
+    span{
+        font-size: 16px;
+    }
+
+    .shadow-square span{
+        font-size: 12px;
+    }
+
+    .detail i{
+        margin-right: 20px;
+    }
+
+    .MainLogo i{
+        width: 50px;
+        height: 50px;
+        padding-top: 10px;
+        font-size: 28px;
+    }
+
+    .shadow-square{
+        padding-left: 10%;
+        padding-right: 10%;
+        opacity: 1;
+        bottom: -40px;
+        transition: all 1s;
+        box-sizing: border-box;
+    }
+
+}
+
